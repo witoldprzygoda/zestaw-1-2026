@@ -1,0 +1,38 @@
+# Pliki posrednie Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Srodowiska wirtualne
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Testy i narzedzia
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Pakiety i budowanie
+build/
+dist/
+*.egg-info/
+
+# Edytory i IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Systemy operacyjne
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dane lokalne i sekrety
+.env
+*.log
